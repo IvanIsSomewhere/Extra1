@@ -8,11 +8,10 @@ from functions.A11_random_walk import execute_rw
 
 st.set_page_config(page_title="Exhaustive Search", page_icon="🌍")
 
-st.title("Exhaustive")
-st.write("Hill Climbing es un algoritmo de optimización que mejora iterativamente una solución evaluando vecinos "
-         "cercanos. Es rápido y sencillo, ideal para problemas con espacios de búsqueda pequeños o convexos."
-         " Su principal limitación es que puede quedar atrapado en óptimos locales. Efectivo en ajuste de "
-         "parámetros, inteligencia artificial y problemas de scheduling. ")
+st.title("Cauchy method")
+st.write("un algoritmo clásico de optimización que utiliza el gradiente negativo como dirección de búsqueda en cada"
+         " iteración. Su principal ventaja es su simplicidad matemática, "
+         "ideal para funciones diferenciables donde el cálculo del gradiente es accesible.")
 
 
 _result= 1

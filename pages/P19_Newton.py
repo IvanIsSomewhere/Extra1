@@ -9,10 +9,8 @@ from functions.A11_random_walk import execute_rw
 st.set_page_config(page_title="Exhaustive Search", page_icon="🌍")
 
 st.title("Exhaustive")
-st.write("Hill Climbing es un algoritmo de optimización que mejora iterativamente una solución evaluando vecinos "
-         "cercanos. Es rápido y sencillo, ideal para problemas con espacios de búsqueda pequeños o convexos."
-         " Su principal limitación es que puede quedar atrapado en óptimos locales. Efectivo en ajuste de "
-         "parámetros, inteligencia artificial y problemas de scheduling. ")
+st.write("Algoritmo potente que extiende el clásico Newton-Raphson a n dimensiones, usando el gradiente y "
+         "la matriz Hessiana para converger cuadráticamente al óptimo.")
 
 
 _result= 1
