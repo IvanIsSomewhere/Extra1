@@ -7,3 +7,6 @@ Profe trate lo mejor que pude
 * numpy
 * matplotlib
 * scipy
+
+# Como ejecutar
+Dentro de la terminal de Python, escribir "streamlit run main.py"
